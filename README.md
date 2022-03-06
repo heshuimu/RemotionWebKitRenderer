@@ -1,5 +1,5 @@
 # RemotionWebKitRenderer
-Using WKWebView as a faster alternative for rendering Remotion compositions on macOS
+Using WKWebView as a faster alternative for rendering [Remotion](https://github.com/remotion-dev/remotion) compositions on macOS
 
 This is a hack project I put together. I found that using Remotion's own built-in rendering with Chromium instances, the rendering speed was not up to frame rate, and due to memory usage, I can only enable `--concurrency 2`.
 
