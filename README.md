@@ -13,7 +13,7 @@ One bonus is that my tool skips writing rendered image to disk by encoding the c
 This project was written with Xcode 13.2.1 with all latest Swift features. My machine was running on macOS 12.2.1. 
 
 # Usage
-Before using the tool, salvage the temporary HTML and JavaScript files Remotion generates from cache during a build. Patch the HTML file by adding a `.` in front of the JavaScript file path in `<script>` node. 
+Before using the tool, take the bundle that Remotion generates during render. The bundle path gets written when passing [`--log=verbose`](https://www.remotion.dev/docs/cli#--log) to the render command. Patch the HTML file by adding a `.` in front of the JavaScript file path in `<script>` node. 
 
 The input file path should point to the `index.html`
 
